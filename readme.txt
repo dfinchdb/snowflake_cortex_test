@@ -3,13 +3,15 @@ You can sign up for a Snowflake free trial here:
 
 The entire process took less than 2 minutes to have a functional environment in which I could run code both from my IDE and from the UI
 
+The results, however, were extremely slow
+
 Your credentials are entered in the snowflake_config.json file to enable local access. The expected format is:
     {
-        "user": "user_name",
-        "password": "password",
-        "account": "izxbdfz-xua73777",
+        "user": "foo",
+        "password": "bar",
+        "account": "abcdefg-abc12345",
         "warehouse": "COMPUTE_WH",
-        "database": "test",
+        "database": "test_database",
         "schema": "test_schema"
     }
 
